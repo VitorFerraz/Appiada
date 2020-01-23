@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_joker"
+    tools:context=".MainActivity"
+    style="@style/Container">
+
+    <TextView
+        android:id="@+id/tvJoker"
+        android:text="@string/joker_one"
+        style="@style/Label"/>
+
+    <Button
+        android:id="@+id/btTellJoker"
+        android:text="@string/button_new_joker"
+        style="@style/Button"
+        />
+
+</LinearLayout>
